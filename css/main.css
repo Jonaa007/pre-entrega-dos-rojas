@@ -1,0 +1,412 @@
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* valores del body*/
+.body-mujer{
+    background-color: #E9DAC1;
+}
+.body{
+    background-color: #E9DAC1;
+    height: 100vh;
+}
+/*valores del header*/
+.container-fluid{
+    background-color: #D7C0AE;
+}
+
+/*valores del footer*/
+footer{
+    margin-top: 600px;
+    font-size: 25px;
+    background-color: #D7C0AE;
+    display: flex;
+    align-content:flex-end;
+}
+footer div img{
+    height: 25px;
+}
+
+/*valores del div destacados*/
+.subtitulo{
+    font-size: 30px;
+}
+
+.destacados{
+    overflow: hidden;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows:50% 50% ;
+    justify-items: center;
+    align-items: center;
+
+}
+/*valores de imagenes*/
+
+.imagen-uno{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen-uno:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.imagen-uno p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE; 
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.imagen-dos{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen-dos:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.imagen-dos p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE;
+    border-radius: 8px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.imagen-tres{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen-tres:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.imagen-tres p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE; 
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.imagen-cuatro{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen-cuatro:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.imagen-cuatro p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE;
+    border-radius: 8px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+/*valores img mujer*/
+
+.mujer{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) ;
+    grid-template-rows: 30% 30% 30%;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-mujer-uno{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-uno:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.img-mujer-dos{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-dos:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.img-mujer-tres{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-tres:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+.img-mujer-cuatro{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-cuatro:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+.img-mujer-cinco{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-cinco:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+.img-mujer-seis{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-mujer-seis:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
+
+/*Media queries*/
+
+@media (max-width:555px) {
+
+
+/*valores del div destacados*/
+.subtitulo{
+    font-size: 20px;
+}
+
+.destacados{
+    overflow: hidden;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+/*valores de imagenes*/
+
+.imagen-uno{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagen-uno p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE; 
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.imagen-dos{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.imagen-dos p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE;
+    border-radius: 8px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.imagen-tres{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-tres p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE; 
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.imagen-cuatro{
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.imagen-cuatro p{
+    font-size: 1rem;
+    color: white;
+    background-color: #D7C0AE;
+    border-radius: 8px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+/*valores img mujer*/
+
+.mujer{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-mujer-uno{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mujer-dos{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mujer-tres{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mujer-cuatro{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mujer-cinco{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-mujer-seis{
+    box-shadow: 5px 8px 12px black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+/*propiedades del footer*/
+footer{
+    margin-top: 100px;
+    font-size: 10px;
+    background-color: #D7C0AE;
+    display: flex;
+    align-content:flex-end;
+}
+
+
+
+}
